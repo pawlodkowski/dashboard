@@ -12,7 +12,8 @@ sudo yum install git
 git clone git@github.com:pawlodkowski/dashboard.git
 #assuming you have SSH; otherwise use HTTPs
 cd dashboard
-pip3 install -r requirements.txt
+#pip3 install -r requirements.txt
+pip install --user -r requirements.txt
 
 # download CSV file
 # curl http://somewhere.com/my.csv
