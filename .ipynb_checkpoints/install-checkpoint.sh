@@ -9,7 +9,7 @@ sudo yum install python3-pip
 sudo yum install git
 
 # install the Python program
-git clone github.com//myawesomedashboard.git
+git clone github.com/krother/myawesomedashboard.git
 cd myawesomedashboard-master
 pip3 install -r requirements.txt
 
